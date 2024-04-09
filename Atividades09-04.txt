@@ -1,0 +1,44 @@
+/*Atividade 23*/
+/*function numeroPrimo(num) {
+    if (num <= 1) return false;
+    for (var divisor = 2; divisor <= Math.sqrt(num); divisor++)
+        if (num % divisor === 0) return false;
+    return true;
+}
+
+var input = prompt("Insira um número : ");
+
+if (input) {
+    var numero = parseInt(input);
+    console.log(numeroPrimo(numero) ? numero + " é primo." : numero + " não é primo.");
+} else {
+    console.log("Nenhum valor foi inserido.");
+}*/
+
+
+/*Atividade 22*/
+/*
+var numero = parseInt(prompt("Digite um número para calcular o fatorial:"));
+var fatorial = 1;
+for(var i = 1; i <= numero; i++){
+fatorial *= i;]
+*/
+
+
+/*Atividade 20*/
+/*
+var semana = new Array("Domingo", "Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado");
+console.log("Dias da semana");
+for(var dia in semana){
+console.log(semana[dia]);
+ }
+*/
+
+/*Atividade 21*/
+/*
+var meses = new Array("Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro","Dezembro");
+console.log("Meses do ano");
+for(var i = 0; i < meses.length; i++){
+    console.log(meses[i]);
+}
+*/
